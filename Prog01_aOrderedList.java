@@ -230,7 +230,7 @@ public class Prog01_aOrderedList
         
         if (userPrompt.equals("Y")) 
         {
-            System.out.println("Enter input fileName:");
+            System.out.println("Enter output fileName:");
             fileName =scan.next();
             outputFile =new File(fileName);
             if (!outputFile.exists()) 
